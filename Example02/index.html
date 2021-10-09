@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+</head>
+<body>
+    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+            "background": "#000"
+            },
+            "button": {
+            "background": "#FFC601",
+            "text": "#000000",
+            "border": "#FFC601"
+            }
+        },
+        "position": "bottom-left",
+            "content": {
+            "message": "Usamos cookies para garantir que você obtenha a melhor experiência no nosso site.",
+            "dismiss": "Entendi!",
+            "link":"Leia Mais.",
+            "href": "https://www.plattenplaner.de/datenschutz"
+            }
+        })});
+    </script>
+</body>
+</html>
